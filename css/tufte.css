@@ -69,7 +69,7 @@ body { width: 87.5%;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
-       font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+       font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        background-color: #fefefe;
        color: #414141;
        max-width: 1400px;
@@ -108,7 +108,7 @@ h3 { width: 55%;
       font-size: 1.4rem;
       margin-top: 0rem;
       margin-bottom: 0rem;
-      font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
+      font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; }
 
 
 hr { display: block;
@@ -120,7 +120,7 @@ hr { display: block;
      padding: 0; }
 
 p.subtitle {
-       font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+       font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        max-width: 1400px;}
 
   /* width: 87.5%;
