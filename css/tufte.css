@@ -22,6 +22,8 @@
 html { font-size: 12px; }
 
 body { width: 87.5%;
+       margin-top:0px;
+       margin-bottom:0px;
        margin-left: auto;
        margin-right: auto;
        padding-left: 12.5%;
@@ -32,29 +34,40 @@ body { width: 87.5%;
        counter-reset: sidenote-counter; }
 
 h1 { 
-    font-family: 'Open Sans', sans-serif;
+    font-family: fira-sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
     color: #414141;
     font-weight: 600;
-    font-size: 2em;
-    margin-top: 4rem;
-    margin-bottom: 1em;
+    font-size: 2.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
     line-height: 1; }
+
+h1.post-title {
+    text-decoration:underline;
+}
 
 h2 {
    font-family: 'Open Sans', sans-serif;
    color: #414141;
    font-weight: 400;
    font-size: 1.5em;
-   margin-top: 2.1rem;
-   margin-bottom: 1em;
+   margin-top: .5em;
+   margin-bottom: .5em;
    line-height: 1;
    letter-spacing: 1px;
-                      }
+}
+h2.subtitle {
+  font-weight:300;
+  margin-top:.25em;
+  margin-bottom:.25em;
+  line-height:1.5;
+}
 
 h3 { 
     font-family: 'Open Sans', sans-serif;;
     color: #414141;
-    font-size: 1.17em;
+    font-size: 1.25em;
+    font-weight:bold;
     }
 
 h4 {
@@ -62,9 +75,7 @@ h4 {
     font-weight:300;
     color: #414141;
     font-size:1em;
-
   }
-
 
 hr { display: block;
      height: 1px;
@@ -93,20 +104,16 @@ p.subtitle {
 article { position: relative;
           padding: 5rem 0rem; }
 
-section { padding-top: 1rem;
-          padding-bottom: 1rem; }
+section { padding-top: .5rem;
+          padding-bottom: .5rem; }
 
 p, ol, ul { font-size: 1.5rem;
             line-height: 2.2rem; }
 
-p { margin-top: 1rem;
-    margin-bottom: 1rem;
+p { margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
     padding-right: 0;
     vertical-align: baseline; }
-
-p.paragraph {
-
-}
 
 /* Chapter Epigraphs */
 div.epigraph { margin: 5em 0; }
@@ -196,16 +203,19 @@ a:link::-moz-selection { text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.0
 /* Sidenotes, margin notes, figures, captions */
 img { max-width: 100%; }
 
-.sidenote, .marginnote { float: right;
-                         clear: right;
-                         margin-right: -60%;
-                         width: 50%;
-                         margin-top: 0;
-                         margin-bottom: 0;
-                         font-size: 1.0rem;
-                         line-height: 1.3;
-                         vertical-align: baseline;
-                         position: relative; }
+.sidenote, .marginnote { 
+                        font-family: 'Open Sans',sans-serif;
+                        font-weight:300;
+                        float: right;
+                        clear: right;
+                        margin-right: -60%;
+                        width: 50%;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        font-size: 1.0rem;
+                        line-height: 1.3;
+                        vertical-align: baseline;
+                        position: relative; }
 
 .sidenote-number { counter-increment: sidenote-counter; }
 
@@ -267,7 +277,10 @@ span.newthoughtbig { font-family: fira-sans-largest, Palatino, "Palatino Linotyp
                  }
 
 
-input.margin-toggle { display: none; }
+input.margin-toggle { display: none; 
+                      font-family: 'Open Sans',sans-serif;
+                      font-weight:300;
+}
 
 label.sidenote-number { display: inline;}
 
@@ -330,7 +343,6 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 .change-width-post {
   width: 55%;
 }
-
 
 @media (max-width: 760px) {
   .topborder {
@@ -422,5 +434,5 @@ button:focus {
 
 /*Changes to Other Stuff */
 #highlight {
-  background-image: linear-gradient(to bottom,rgba(12,242,143,.2),rgba(12,242,143,.2));
+  background-image: linear-gradient(to bottom,rgba(151,227,245,.4),rgba(151,227,245,.4));
 }
