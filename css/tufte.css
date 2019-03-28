@@ -35,7 +35,7 @@ body { width: 87.5%;
 
 h1 { 
     font-family: fira-sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-    color: #414141;
+    color: #101010;
     font-weight: 600;
     font-size: 2.5em;
     margin-top: .5em;
@@ -64,7 +64,7 @@ h2.subtitle {
 }
 
 h3 { 
-    font-family: 'Open Sans', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     color: #414141;
     font-size: 1.25em;
     font-weight:bold;
@@ -85,6 +85,15 @@ hr { display: block;
      margin: 1em 0;
      padding: 0; }
 
+/* Nav Section */
+#nav-item {
+  background-repeat: no-repeat;
+}
+#nav-item:hover {
+  background-repeat: no-repeat, no-repeat, repeat-x;
+}
+
+
 p.subtitle {
        font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
        max-width: 1400px;}
@@ -102,7 +111,8 @@ p.subtitle {
 .danger { color: red; }
 
 article { position: relative;
-          padding: 5rem 0rem; }
+          padding-top: 0rem;
+          padding-bottom: 5rem; }
 
 section { padding-top: .5rem;
           padding-bottom: .5rem; }
