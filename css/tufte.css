@@ -45,6 +45,15 @@ h1 {
 h1.post-title {
     text-decoration:underline;
 }
+h1.about {
+    font-family: fira-sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: #101010;
+    font-weight: 550;
+    font-size: 2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    line-height: 1;
+}
 
 h2 {
    font-family: 'Open Sans', sans-serif;
@@ -347,6 +356,10 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
    border-right: solid thin #DCDCDC;
    padding-right:2.7%;
 }
+.bottomborder-internal {
+  width:100%;
+  border-top: solid .1rem #262626;
+}
 .change-width {
   width: 87.5%;
 }
@@ -443,7 +456,6 @@ button:focus {
   }
   #linkedin {
     background-color: #F5F5F5;
-    
   }
   #linkedin:hover {
     background: #0077B5;
