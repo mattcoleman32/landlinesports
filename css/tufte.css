@@ -441,6 +441,13 @@ button:focus {
     background: #ff5700;
     color: white;
   }
+  #linkedin {
+    background-color: #F5F5F5;
+  }
+  #linkedin:hover {
+    background: #0077B5;
+    color: white;
+  }
 
 /*Changes to Other Stuff */
 #highlight {
