@@ -464,5 +464,6 @@ button:focus {
 
 /*Changes to Other Stuff */
 #highlight {
-  background-image: linear-gradient(to bottom,rgba(151,227,245,.4),rgba(151,227,245,.4));
+  background-image: linear-gradient(to bottom,rgba(0, 127, 255, .3),rgba(0, 127, 255,.3));
+  color: black;
 }
