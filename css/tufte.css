@@ -395,7 +395,6 @@ button:focus {
 }
 /* Email Sign Up */
 #submit-button {
-  
   height: 34px;
   width: 100px;
   margin-top:7px;
@@ -464,6 +463,18 @@ button:focus {
 
 /*Changes to Other Stuff */
 #highlight {
-  background-image: linear-gradient(to bottom,rgba(0, 127, 255, .3),rgba(0, 127, 255,.3));
-  color: black;
+  background-image: linear-gradient(to bottom,rgba(23,121,186, .2),rgba(23,121,186, .2));
+  color: inherit;
+}
+
+li.color-dot {
+  list-style: none;
+}
+li.color-dot::before {
+  content: "\2022";
+  color: #1779ba;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
 }
