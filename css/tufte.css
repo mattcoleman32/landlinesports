@@ -54,7 +54,17 @@ h1.about {
     margin-bottom: .5em;
     line-height: 1;
 }
+h1.home {
+   font-family: fira-sans, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: #101010;
+    font-weight: 550;
+    font-size: 2em;
+    margin-top:.25em;
+    margin-bottom: .25em;
+    line-height: 1;
 
+    width:fit-content;
+}
 h2 {
    font-family: 'Open Sans', sans-serif;
    color: #414141;
@@ -71,6 +81,13 @@ h2.subtitle {
   margin-bottom:.25em;
   line-height:1.5;
 }
+h2.home {
+  font-weight:300;
+  font-size:1.25em;
+  margin:.15em;
+  line-height:1.5;
+  width:fit-content;
+}
 
 h3 { 
     font-family: 'Open Sans', sans-serif;
@@ -85,6 +102,13 @@ h4 {
     color: #414141;
     font-size:1em;
   }
+p.home {
+  margin:.15em;
+  width:fit-content;
+}
+a:link.home {
+  background-repeat:no-repeat;
+}
 
 hr { display: block;
      height: 1px;
@@ -93,10 +117,26 @@ hr { display: block;
      border-top: 1px solid #ccc;
      margin: 1em 0;
      padding: 0; }
+/* Home Page */
+
+.homehover {
+  border: solid transparent 1.5px;
+}
+
+.homehover:hover {
+  background-color: rgba(23,121,186, .2);
+  border: solid rgba(23,121,186, .5) 1.5px;
+  text-shadow:none;
+  border-radius:3px;
+}
+
+
+
 
 /* Nav Section */
 #nav-item {
-  background-repeat: no-repeat;
+    background-repeat-x: no-repeat, no-repeat, no-repeat;
+    background-repeat-y: no-repeat, no-repeat, no-repeat;
 }
 #nav-item:hover {
   background-repeat: no-repeat, no-repeat, repeat-x;
@@ -363,6 +403,9 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
 .change-width {
   width: 87.5%;
 }
+.home-width {
+  margin-left:20%;
+}
 .change-width-post {
   width: 55%;
 }
@@ -380,9 +423,13 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   .change-width {
     width:100%;
   }
+  .home-width{
+    margin-left:0%;
+  }
   .change-width-post {
     width:100%;
   }
+
 }
 input:focus,
 select:focus,
