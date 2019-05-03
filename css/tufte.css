@@ -120,12 +120,12 @@ hr { display: block;
 /* Home Page */
 
 .homehover {
-  border: solid transparent 1.5px;
+  
 }
 
 .homehover:hover {
   background-color: rgba(23,121,186, .2);
-  border: solid rgba(23,121,186, .5) 1.5px;
+  
   text-shadow:none;
   border-radius:3px;
 }
@@ -233,7 +233,7 @@ figure.fullwidth figcaption { margin-right: 24%; }
 a:link, a:visited { color: inherit; }
 
 a:link { text-decoration: none;
-         background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#414141, #414141);
+         background: -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#fefefe, #fefefe), -webkit-linear-gradient(#414141, fjihfhjjjjjjjjjjjjjjjjjjjjjjjihouykfttgjihoukyfpllllllllh#414141);
          background: linear-gradient(#fefefe, #fefefe), linear-gradient(#fefefe, #fefefe), linear-gradient(#414141, #414141);
          -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
          -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
@@ -429,7 +429,7 @@ label.margin-toggle:not(.sidenote-number) { display: none; }
   .change-width-post {
     width:100%;
   }
-
+  
 }
 input:focus,
 select:focus,
